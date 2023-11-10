@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+    <div class="quiz-container">
+        <div class="question">
+            <h2>Question 1:</h2>
+            <p>What is the capital of France?</p>
+        </div>
+        <div class="answers">
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+        </div>
+    </div>
+    <div class="timer">
+        <span id="time">60</span> seconds left
+    </div>
+    <div class="result">
+        <p>Your score: <span id="score">0</span></p>
+    </div>
+    <button id="start-quiz">Start Quiz</button>
+    <div class="high-scores">
+        <h2>High Scores</h2>
+        <ul id="high-scores-list">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
